@@ -36,6 +36,8 @@ header {
   align-items: center;
   padding: 10px 0;
   margin: 30px auto;
+
+  border: 2px solid black;
 }
 header img {
   max-width: 134px;
@@ -67,6 +69,8 @@ ul .home,
   display: flex;
   justify-content: space-between;
   margin: 150px auto;
+
+  border: 2px solid black;
 }
 .banner-text {
   display: flex;
@@ -104,8 +108,75 @@ ul .home,
   height: 100%;
 }
 
+/* plants section */
+.plant-section {
+  max-width: 1140px;
+  height: 1250px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 120px auto;
+  padding-top: 20px;
 
-
-@media (max-width: 768px) {
-
+  border: 2px solid black;
 }
+.plant-section h2 {
+  font-size: 50px;
+  line-height: 68px;
+  padding-bottom: 17px;
+}
+.plant-section p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 888px;
+  padding: 10px 10px 40px 10px;
+}
+.cart-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 137px 20px;
+}
+.cart {
+  max-width: 270px;
+  max-height: 400px;
+}
+.cart img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.cart-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.cart h6 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 150%;
+  color: rgb(17, 17, 17);
+  margin: 15px auto 15px auto;
+}
+small {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+  color: rgb(17, 17, 17);
+  margin-bottom: 10px;
+}
+button {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 350px;
+  background-color: #e95a08;
+  line-height: 19px;
+  padding: 15px 80px 15px 80px;
+  border: none;
+  margin: 5 auto;
+  justify-content: center;
+}
+
