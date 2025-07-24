@@ -367,7 +367,6 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   text-align: center;
   color: white;
   margin: 120px auto 50px auto;
@@ -415,4 +414,88 @@ button {
 
 .input-field button:hover {
   background-color: #d95600;
+}
+/* footer section */
+/* 1st part */
+footer {
+  padding: 50px 20px;
+}
+
+.footer-container {
+  max-width: 1120px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 80px;
+
+  border: 2px solid black;
+}
+
+.footer-logo-section {
+  width: 365px;
+  height: 200px;
+  margin-top: 65px;
+
+  border: 2px solid black;
+}
+
+.footer-logo-section .logo {
+  width: 135px;
+  margin-bottom: 10px;
+}
+
+.footer-logo-section p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 16px 0px 0px 0px;
+}
+/* 2nd and 3rd part */
+.footer-links {
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 2px solid black;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 35px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-links ul li a:hover {
+  color: #0070f3;
+}
+/* part 4 */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 220px;
+
+  border: 2px solid black;
+}
+
+.footer-social img {
+  width: 36px;
+  height: 36px;
+  /* transition: transform 0.2s ease; */
+}
+
+.footer-social img:hover {
+  /* transform: scale(1.1); */
+  background-color: #8987a1;
 }
