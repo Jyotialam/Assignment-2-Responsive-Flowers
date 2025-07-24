@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+/* Promo Section */
+.promo-section {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+}
+
+.promo-card {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.promo-card.large {
+  width: 580px;
+}
+
+.promo-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.promo-content {
+  position: relative;
+  z-index: 1;
+}
+
+.promo-content h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.promo-content a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Background images (moved from inline) */
+.card-bloom {
+  background-image: url('https://images.unsplash.com/photo-1615485290448-0f378a12300d');
+}
+
+.card-ana {
+  background-image: url('https://images.unsplash.com/photo-1587049352846-4aa4a7cdd278');
+}
+
+.card-zabo {
+  background-image: url('https://images.unsplash.com/photo-1524594154900-6cfd4d85f5d1');
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  background-image: url('https://images.unsplash.com/photo-1501959915551-4e8a01f9d6c1');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: inline-flex;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.subscribe-form button {
+  background-color: #f76900;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscribe-form button:hover {
+  background-color: #d95600;
+}
