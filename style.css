@@ -36,8 +36,6 @@ header {
   align-items: center;
   padding: 10px 0;
   margin: 30px auto;
-
-  border: 2px solid black;
 }
 header img {
   max-width: 134px;
@@ -76,13 +74,10 @@ ul .home,
   display: flex;
   justify-content: space-between;
   margin: 150px auto;
-
-  border: 2px solid black;
 }
 .banner-text {
   display: flex;
   flex-direction: column;
-  /* flex: 1; */
   max-width: 570px;
   margin-top: 160px;
   margin-bottom: 5px;
@@ -124,16 +119,11 @@ ul .home,
   align-items: center;
   flex-direction: column;
   margin: 120px auto;
-  /* padding-top: 20px; */
-
-  border: 2px solid black;
 }
 .Our-Plants-content {
   max-width: 1140px;
   height: fit-content;
   margin-top: 0px;
-
-  border: 2px solid black;
 }
 .Our-Plants-content h2 {
   font-size: 3.125rem;
@@ -204,8 +194,6 @@ button {
   align-items: center;
   margin: 210px auto 133px auto;
   gap: 90px;
-
-  border: 2px solid black;
 }
 .plants-lover-badge {
   position: absolute;
@@ -265,8 +253,6 @@ button {
   font-weight: 700;
   text-align: center;
   color: black;
-
-  border: 2px solid black;
 }
 .Latest-Deals-section p {
   color: rgba(0, 0, 0, 0.5);
@@ -277,8 +263,6 @@ button {
   max-width: 888px;
   margin: 15px auto;
   margin-bottom: 0px;
-
-  border: 2px solid black;
 }
 
 /* Promo Section */
@@ -438,16 +422,12 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 80px;
-
-  border: 2px solid black;
 }
 
 .footer-logo-section {
   width: 365px;
   height: 200px;
-  margin-top: 65px;
-
-  border: 2px solid black;
+  margin-top: 30px;
 }
 
 .footer-logo-section .logo {
@@ -467,8 +447,6 @@ footer {
   gap: 80px;
   flex-direction: column;
   justify-content: space-between;
-
-  border: 2px solid black;
 }
 
 .footer-links ul {
@@ -495,8 +473,6 @@ footer {
   align-items: center;
   gap: 24px;
   margin-bottom: 220px;
-
-  border: 2px solid black;
 }
 
 .footer-social img {
@@ -597,8 +573,6 @@ footer {
     flex-direction: column;
     margin: 150px auto 150px auto;
     gap: 90px;
-
-    border: 2px solid black;
   }
   .plants-lover-main-img {
     max-width: 350px;
