@@ -212,7 +212,7 @@ button {
 }
 
 .plants-lover-main-img {
-    width: 76%;
+  width: 76%;
 }
 
 .plants-lover-content {
@@ -300,7 +300,6 @@ button {
 .promo-card.large {
   width: 100%;
   max-width: 753px;
-  /* height: 433px; */
   height: auto;
 }
 .promo-card.large h2 {
@@ -384,8 +383,7 @@ button {
   background: transparent;
   max-width: 100%;
 }
-.input-field {
-}
+
 .input-field input {
   background: white;
   border-radius: 6px;
@@ -488,11 +486,7 @@ footer {
 @media (max-width: 575px) {
   /* header section */
   header {
-    /* width: 350px; */
-    /* margin: 60px 10px; */
-    /* padding: 5px 5px; */
     width: 80%;
-    /* max-width: 100%; */
     padding: 10px;
   }
   header img {
@@ -522,7 +516,6 @@ footer {
   .banner-text p {
     font-size: 0.875rem;
     font-weight: 400;
-    /* max-width: 560px; */
     padding: 5px 0px 0px 0px;
   }
   /* plants section */
@@ -632,7 +625,6 @@ footer {
   .promo-section {
     flex-direction: column;
     max-width: 350px;
-    /* max-height: 581px; */
     margin: 0 auto;
     gap: 20px;
     padding: 0px;
@@ -677,7 +669,7 @@ footer {
     width: 300px;
     padding-bottom: 0px;
   }
-  
+
   /* footer */
   footer {
     padding: 10px 20px;
